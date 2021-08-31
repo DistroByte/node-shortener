@@ -31,3 +31,9 @@ Populate the `MONGO_URI` with the connection address for your mongoDB instance, 
 ## Next steps
 
 Once you have the application running locally, you can use a reverse proxy to expose it to the world. Something like NGINX or Traefik can work really well for this. I'll leave it to you to figure how that works :D
+
+## Testing
+
+![Image of Postman testing](https://i.dbyte.xyz/Postman_bZCPiwRYK.png)
+
+Using Postman you can send a POST request to the url generator and get the shortened version back.
