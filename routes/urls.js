@@ -16,7 +16,7 @@ router.post('/short', async (req, res) => {
       if (url) {
         res.json(url);
       } else {
-        const shortUrl = `${base}/s/${urlId}`;
+        const shortUrl = `${base}${process.env.PREFIX}${urlId}`;
 
         url = new Url({
           originalUrl,

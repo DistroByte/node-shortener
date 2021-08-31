@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const Url = require('../models/Url');
+require('dotenv').config();
 
-router.get('/s/:urlId', async (req, res) => {
+router.get(`${process.env.PREFIX}:urlId`, async (req, res) => {
   try {
     const url = await Url.findOne({ urlId: req.params.urlId });
     if (url) {
