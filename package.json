@@ -3,7 +3,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.0.3",
-    "shortid": "^2.2.16"
+    "shortid": "^2.2.17"
   },
   "name": "shortener",
   "version": "1.0.0",
